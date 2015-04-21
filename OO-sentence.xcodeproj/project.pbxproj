@@ -20,6 +20,7 @@
 		D8EC4E4019C64AE6002E0FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EC4E2519C64AE6002E0FA4 /* Foundation.framework */; };
 		D8EC4E4119C64AE6002E0FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EC4E2919C64AE6002E0FA4 /* UIKit.framework */; };
 		D8EC4E4919C64AE6002E0FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8EC4E4719C64AE6002E0FA4 /* InfoPlist.strings */; };
+		DB6CC6391AE4703200C37FDE /* FISSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CC6381AE4703200C37FDE /* FISSentence.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +50,11 @@
 		D8EC4E3519C64AE6002E0FA4 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		D8EC4E3719C64AE6002E0FA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8EC4E3D19C64AE6002E0FA4 /* OO-sentenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OO-sentenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8EC4E3E19C64AE6002E0FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8EC4E3E19C64AE6002E0FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8EC4E4619C64AE6002E0FA4 /* OO-sentenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OO-sentenceTests-Info.plist"; sourceTree = "<group>"; };
 		D8EC4E4819C64AE6002E0FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6CC6371AE4703200C37FDE /* FISSentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSentence.h; sourceTree = "<group>"; };
+		DB6CC6381AE4703200C37FDE /* FISSentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSentence.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 		D8EC4E2B19C64AE6002E0FA4 /* OO-sentence */ = {
 			isa = PBXGroup;
 			children = (
+				DB6CC6371AE4703200C37FDE /* FISSentence.h */,
+				DB6CC6381AE4703200C37FDE /* FISSentence.m */,
 				D8EC4E3419C64AE6002E0FA4 /* FISAppDelegate.h */,
 				D8EC4E3519C64AE6002E0FA4 /* FISAppDelegate.m */,
 				D8EC4E3719C64AE6002E0FA4 /* Images.xcassets */,
@@ -292,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EC4E3219C64AE6002E0FA4 /* main.m in Sources */,
+				DB6CC6391AE4703200C37FDE /* FISSentence.m in Sources */,
 				D8EC4E3619C64AE6002E0FA4 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
